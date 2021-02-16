@@ -1,0 +1,29 @@
+.maindiv {
+  background-color: black;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 5%;
+  width: 80%;
+  -webkit-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.534);
+          box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.534);
+  padding: 2%;
+  border-radius: 10px;
+}
+
+.maindiv:hover {
+  -webkit-box-shadow: 0px 0px 0px black;
+          box-shadow: 0px 0px 0px black;
+}
+
+.maindiv .topic {
+  color: white;
+}
+
+.maindiv .topic:hover {
+  color: #7c7c7c;
+}
+
+.maindiv .cont {
+  color: rgba(255, 255, 255, 0.774);
+}
+/*# sourceMappingURL=style.css.map */
