@@ -1,0 +1,32 @@
+@import './var.scss';
+
+.maindiv
+{
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 5%;
+    width: 80%;
+    box-shadow: $shadow;
+    padding: 2%;
+    border-radius: $radius;
+
+    &:hover{
+        box-shadow: 0px 0px 0px black;
+    }
+
+    .topic
+    {
+        color: $topic1;
+
+        &:hover
+        {
+            color: rgb(124, 124, 124);
+        }
+
+    }
+    .cont
+    {
+        color: $cont1;
+    }
+}
